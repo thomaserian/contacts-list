@@ -1,0 +1,20 @@
+{
+    "defaults": {
+        "users": [
+            {
+                "id": 1,
+                "name": "User A",
+                "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IlVzZXIgQSIsImlhdCI6MTUxNjIzOTAyMn0.oAp2McT_luTNbmkvh7Q0WH6-4C89_esVlgece27PaQc",
+                "deviceToken": "m5jc8l0effbcee8jkvfa9wog9g3lfxw88la6cgrh1sz6wyv7z0nym1l17ectherfq7sse9g575hu927y8k30rer4y936e0bay9si8ed6a169t3e8t7yqbgkfvebz4tz8",
+                "fingerPrint": "123456789"
+            },
+            {
+                "id": 2,
+                "name": "User B",
+                "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwibmFtZSI6IlVzZXIgQiIsImlhdCI6MTUxNjIzOTAyMn0.MHs9JpGZFh0Z7t6L7CxjKiBbj5XpHqCMUaBV8XjStU0",
+                "deviceToken": "do2gjuo9qzedffwrqav2a7l4xobbwddz7m6g60w25gmb188ipta572zuwgvyzf4dr0z36lw27ojzmh711ncyvhyiozmt4gwl6mvjdxrbb0gn7dve6xis56gzwsy6z1yb",
+                "fingerPrint": "987654321"
+            }
+        ]
+    }
+}
