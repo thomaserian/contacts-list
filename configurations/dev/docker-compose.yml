@@ -29,3 +29,5 @@ services:
       - "2000:2000"
     depends_on:
       - mysql
+volumes:
+  my-db:
