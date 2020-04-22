@@ -14,18 +14,6 @@ services:
       - '2001'
     volumes:
       - my-db:/var/lib/mysql
-  proxy-sql:
-    image: proxysql/proxysql
-    network_mode: "host"
-    volumes:
-      - type: bind
-        source: ./proxysql.cnf
-        target: /etc/proxysql.cnf
-    ports: 
-      - "2002:6032"
-      - "2003:6033"
-    depends_on:
-      - mysql
   contact-list-backend: 
     build: 
      context: ../../
@@ -40,4 +28,4 @@ services:
     ports: 
       - "2000:2000"
     depends_on:
-      - proxy-sql
+      - mysql

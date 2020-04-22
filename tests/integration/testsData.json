@@ -1,0 +1,57 @@
+{
+    "testUser":{
+        "id": 3,
+        "name": "Tests",
+        "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmFtZSI6IlRlc3RzIiwiaWF0IjoxNTE2MjM5MDIyfQ.XjhIMhOZm1PBUeYY955KZZuK2HNBxIeztU0F_Ytn9sI",
+        "deviceToken": "5d14bdkhngptvoyzw9c4lc7w85w6nrpibgsczijd4ewq81vu0d4rvhe9cg65e1tfobhdk7webjaaqbawfle0sygbksmoj6tdnhhdu3yvsebogcb1nvrljd2tvfo5r7o4",
+        "fingerPrint": "219854621"
+    },
+    "testUserContacts":[
+        {
+            "firstName": "test 1",
+            "lastName": "test 1",
+            "email": "test1@gmail.com",
+            "mobile": "123456",
+            "UserId":3
+        },
+        {
+            "firstName": "test 2",
+            "lastName": "test 2",
+            "email": "test2@gmail.com",
+            "mobile": "123456",
+            "UserId":3
+        },
+        {
+            "firstName": "test 3",
+            "lastName": "test 3",
+            "email": "test3@gmail.com",
+            "mobile": "123456",
+            "UserId":3
+        },
+        {
+            "firstName": "test 4",
+            "lastName": "test 4",
+            "email": "test4@gmail.com",
+            "mobile": "123456",
+            "UserId":3
+        },
+        {
+            "firstName": "test 5",
+            "lastName": "test 5",
+            "email": "test5@gmail.com",
+            "mobile": "123456",
+            "UserId":3
+        },
+        {
+            "firstName": "test 6",
+            "lastName": "test 6",
+            "email": "test6@gmail.com",
+            "mobile": "123456"
+        }
+    ],
+    "authHeaders":{
+        "authorization":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmFtZSI6IlRlc3RzIiwiaWF0IjoxNTE2MjM5MDIyfQ.XjhIMhOZm1PBUeYY955KZZuK2HNBxIeztU0F_Ytn9sI",
+        "devicetoken":"5d14bdkhngptvoyzw9c4lc7w85w6nrpibgsczijd4ewq81vu0d4rvhe9cg65e1tfobhdk7webjaaqbawfle0sygbksmoj6tdnhhdu3yvsebogcb1nvrljd2tvfo5r7o4",
+        "fingerprint":"219854621"
+    }
+}

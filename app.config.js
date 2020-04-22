@@ -11,7 +11,8 @@ module.exports = {
         DATABASE_PASSWORD: 'root',
         DATABASE_HOST: '127.0.0.1',
         DATABASE_PORT: 2001,
-        JWT_SECRET:"secret"
+        JWT_SECRET:"secret",
+        LOGS:"dev"
       }
     }]
   };

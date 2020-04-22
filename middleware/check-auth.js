@@ -23,7 +23,7 @@ module.exports=async function (req,res,next)
         const authorization=req.headers.authorization;
         const deviceToken=req.headers.devicetoken;
         const fingerPrint=req.headers.fingerprint;
-        const decoded=await jwtVerify(authorization,process.env.JWT_SECRET);
+        const decoded=await jwtVerify(authorization,process.env.JWT_SECRET||"secret");
         const userId=decoded.id;
 
         let user=await userValidator(userId,deviceToken,fingerPrint,authorization);

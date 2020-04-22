@@ -1,10 +1,6 @@
-var app = require('express')();
-var bodyParser = require('body-parser');
-var compression = require("compression");  
-var morgan = require('morgan');
+var app = require('./configurations/express');
 const sequelize = require('./utils/database');
 const sequelizeDefaults=require('./sequelize-utils/Defaults');
-const util = require('util');
 
 (async () => {
   try
@@ -12,7 +8,7 @@ const util = require('util');
     await sequelize.sync({ alter: true });
     await sequelizeDefaults();
 
-    app.listen(process.env.SERVER_PORT, function () {
+    app.listen(process.env.SERVER_PORT||2000, function () {
       console.log('contacts list app listening!');
     });
   }
@@ -20,11 +16,3 @@ const util = require('util');
     console.log(err);
   }
 })();
-
-app.use(morgan('dev'));
-app.use(compression());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-
-//handling /api route
-app.use('/api', require('./routes'));
